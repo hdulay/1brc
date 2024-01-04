@@ -1,0 +1,15 @@
+{
+    "schemaName": "1brc",
+    "dimensionFieldSpecs": [
+      {
+        "name": "city",
+        "dataType": "STRING"
+      }
+    ],
+    "metricFieldSpecs": [
+      {
+        "name": "temp",
+        "dataType": "FLOAT"
+      }
+    ]
+  }

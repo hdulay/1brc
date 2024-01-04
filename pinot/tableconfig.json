@@ -1,0 +1,17 @@
+{
+    "tableName": "1brc",
+    "segmentsConfig" : {
+      "replication" : "1",
+      "schemaName" : "1brc"
+    },
+    "tableIndexConfig" : {
+      "invertedIndexColumns" : [],
+      "loadMode"  : "MMAP"
+    },
+    "tenants" : {
+      "broker":"DefaultTenant",
+      "server":"DefaultTenant"
+    },
+    "tableType":"OFFLINE",
+    "metadata": {}
+  }
