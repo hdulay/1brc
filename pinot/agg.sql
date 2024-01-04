@@ -1,8 +1,8 @@
 select
     city,
-    avg(temp) mean_measure,
-    min(temp) min_measure,
-    max(temp) max_measure
+    avg(temp) as mean_measure,
+    min(temp) as min_measure,
+    max(temp) as max_measure
 from
     "1brc"
 group by
