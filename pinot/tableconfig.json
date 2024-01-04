@@ -1,8 +1,8 @@
 {
-    "tableName": "1brc",
+    "tableName": "onebrc",
     "segmentsConfig" : {
       "replication" : "1",
-      "schemaName" : "1brc"
+      "schemaName" : "onebrc"
     },
     "tableIndexConfig" : {
       "invertedIndexColumns" : [],

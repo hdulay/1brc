@@ -23,9 +23,9 @@ recordReaderSpec:
     delimiter: ';'
 
 tableSpec:
-  tableName: '1brc'
-  schemaURI: 'http://localhost:9000/tables/1brc/schema'
-  tableConfigURI: 'http://localhost:9000/tables/1brc'
+  tableName: 'onebrc'
+  schemaURI: 'http://localhost:9000/tables/onebrc/schema'
+  tableConfigURI: 'http://localhost:9000/tables/onebrc'
 
 pinotClusterSpecs:
   - controllerURI: 'http://localhost:9000'

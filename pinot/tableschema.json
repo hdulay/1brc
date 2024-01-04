@@ -1,5 +1,5 @@
 {
-    "schemaName": "1brc",
+    "schemaName": "onebrc",
     "dimensionFieldSpecs": [
         {
             "name": "city",

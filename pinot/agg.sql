@@ -4,7 +4,7 @@ select
     min(temp) as min_measure,
     max(temp) as max_measure
 from
-    "1brc"
+    onebrc
 group by
     city
 order by
