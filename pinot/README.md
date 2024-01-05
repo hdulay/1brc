@@ -33,6 +33,32 @@ The output of the data generator is a single 1 billion row file. When ingesting 
 split -l 50000000 measurements.csv 
 ```
 
+## Ingest Into Pinot
+
+This process will take some time because it will generate a separate segment for each file.
+
+```bash
+./bin/pinot-admin.sh LaunchDataIngestionJob -jobSpecFile ${PWD}/jobspec.yaml
+```
+
+## Execute SQL
+
+Execute this statement in the Pinot console http://localhost:9000.
+
+```sql
+select
+    city,
+    avg(temp) as mean_measure,
+    min(temp) as min_measure,
+    max(temp) as max_measure
+from
+    onebrc
+group by
+    city
+order by
+    city
+```
+
 ## Clean Up
 
 ```bash
